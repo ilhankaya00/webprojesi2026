@@ -1,34 +1,48 @@
-KodOgren
+# KodLingo (KodOgren) - Kodlama Öğrenme Platformu
 
-KodOgren, insanların Duolingo gibi eğlenceli ve basit bir şekilde kodlama öğrenmesini amaçlayan bir projedir.
+<p align="center">
+  <img src="logo.png" alt="KodLingo Logo" width="120" />
+</p>
 
-Projenin amacı kodlamaya yeni başlayan kişilerin sıkılmadan, adım adım ve uygulama yaparak yazılım öğrenebilmesini sağlamak. Kullanıcılar dersleri tamamlayarak yeni konular öğrenebilir ve kendi seviyelerini geliştirebilir.
+KodLingo, insanların Duolingo gibi eğlenceli ve basit bir şekilde kodlama öğrenmesini amaçlayan bir web projesidir.
 
-Projenin amacı
+Projenin amacı kodlamaya yeni başlayan kişilerin sıkılmadan, adım adım ve uygulama yaparak yazılım öğrenebilmesini sağlamaktır. Kullanıcılar dersleri tamamlayarak yeni konular öğrenebilir ve kendi seviyelerini geliştirebilir.
 
-Kodlama öğrenmek isteyen ama nerden başlayacağını bilmeyen insanlara yardımcı olmak. Uzun ve karmaşık eğitimler yerine kısa dersler, basit anlatımlar ve küçük görevlerle öğrenmeyi daha kolay hale getirmek.
+---
 
-Planlanan özellikler
+## Projenin Amacı
 
-- Seviye seviye kodlama dersleri
-- Kısa ve anlaşılır konu anlatımları
-- Kod yazma ve alıştırma bölümleri
-- Doğru ve yanlış cevaplara göre geri bildirim
-- XP ve puan sistemi
-- Günlük görevler ve seri sistemi
-- Kullanıcı ilerlemesini takip etme
-- Farklı programlama dillerini öğrenme
+Kodlama öğrenmek isteyen ama nereden başlayacağını bilmeyen insanlara yardımcı olmak. Uzun ve karmaşık eğitimler yerine kısa dersler, basit anlatımlar ve küçük görevlerle öğrenmeyi daha kolay hale getirmek.
 
-Hedef
+---
 
-Herkesin kodlama öğrenmeye kolayca başlayabilmesi ve bunu sıkılmadan devam ettirebilmesi. Özellikle daha önce hiç kod yazmamış kişiler için anlaşılır bir öğrenme ortamı oluşturmak.
+## Hayata Geçirilen Özellikler
 
-Geliştirme süreci
+- **Desteklenen Diller:** Python, Java, Rust, C / C++, Flutter (Dart), HTML & CSS
+- **Oyunlaştırılmış Öğrenme:** Günlük Seri (Streak), Can Sistemi (Hearts), Kod Taşları (Elmas), Deneyim Puanı (TP)
+- **Yol Haritası (Stepping Stones):** Adım adım ilerleyen interaktif ders düğümleri ve bonus hazine sandıkları
+- **İnteraktif Soru Ekranı:** Terminal görünümlü kod blokları, 3D basılabilir şıklar ve anlık geri bildirim paneli
+- **Web Audio API:** Dışarıdan dosya indirmeden tarayıcıda polifonik sentezlenen başarı ve hata ses efektleri
+- **Vektör Arayüz:** Yüksek çözünürlüklü SVG ikonlar
+- **Menüler:** Öğren, Bronz Lig Sıralaması, Günlük Görevler, Mağaza ve Profil sekmeleri
+- **Site İçi Modal:** Tarayıcı alert/confirm pencereleri yerine modern Duolingo tarzı popup bildirimleri
 
-Bu proje öğrenci projesi olarak geliştirilmektedir. Yeni özellikler eklenerek ve eksikler giderilerek zamanla daha iyi bir hale getirilmesi planlanmaktadır.
+---
 
-Katkı ve öneriler projeyi geliştirmek açısından önemlidir.
+## Nasıl Çalıştırılır?
 
-Lisans
+Projeyi çalıştırmak için herhangi bir ekstra kütüphane veya paket kurulumuna gerek yoktur:
 
-Lisans bilgisi henüz belirlenmemiştir.
+1. Depoyu klonlayın veya indirin.
+2. `index.html` dosyasını herhangi bir web tarayıcısında (Chrome, Edge, Firefox vb.) çift tıklayarak açın.
+3. Ya da yerel sunucu ile çalıştırmak için:
+   ```bash
+   python -m http.server 5500
+   ```
+   tarayıcınızda `http://localhost:5500` adresine gidin.
+
+---
+
+## Yapay Zeka Kullanım Raporu
+
+Projede yapay zekadan teknik destek ve danışmanlık alınan bölümlerin detaylı açıklaması için [ai-log.md](ai-log.md) dosyasını inceleyebilirsiniz.
